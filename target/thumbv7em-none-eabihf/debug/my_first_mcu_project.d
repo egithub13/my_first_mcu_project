@@ -1,0 +1,1 @@
+/Users/erichayes/Desktop/Projects/Rust/embedded-rust/my_first_mcu_project/target/thumbv7em-none-eabihf/debug/my_first_mcu_project: /Users/erichayes/Desktop/Projects/Rust/embedded-rust/my_first_mcu_project/src/main.rs
