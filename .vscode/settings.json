@@ -1,14 +1,18 @@
 {
-    "cSpell.words": [
-        "thumbv"
-    ],
-    "cSpell.ignoreWords": [
-        "eabihf"
-    ],
-    "rust-analyzer.diagnostics.disabled": [
-        "unresolved-extern-crate"
-    ],
-    "rust-analyzer.cargo.runBuildScripts": true,
-    "rust-analyzer.checkOnSave.allTargets": false
-
+  "cSpell.words": [
+    "_ebss",
+    "_edata",
+    "_sbss",
+    "_sdata",
+    "LOADADDR",
+    "rodata",
+    "rustflags",
+    "sidata",
+    "thumbv",
+    "Tmemory"
+  ],
+  "cSpell.ignoreWords": ["eabihf"],
+  "rust-analyzer.diagnostics.disabled": ["unresolved-extern-crate"],
+  "rust-analyzer.cargo.runBuildScripts": true,
+  "rust-analyzer.checkOnSave.allTargets": false
 }
