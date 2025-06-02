@@ -6,3 +6,5 @@ rustflags = [
     "-C", "link-arg=-Tmemory.ld"
 ]
 
+[http]
+check-revoke = false

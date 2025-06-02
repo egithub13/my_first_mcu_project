@@ -1,1 +1,1 @@
-/Users/erichayes/Desktop/Projects/Rust/embedded-rust/my_first_mcu_project/target/thumbv7em-none-eabihf/debug/my_first_mcu_project: /Users/erichayes/Desktop/Projects/Rust/embedded-rust/my_first_mcu_project/src/main.rs
+C:\Users\eric.hayes\source\repos\Rust\my_first_mcu_project\target\thumbv7em-none-eabihf\debug\my_first_mcu_project: C:\Users\eric.hayes\source\repos\Rust\my_first_mcu_project\src\main.rs C:\Users\eric.hayes\source\repos\Rust\my_first_mcu_project\src\startup_stm32f401.rs
