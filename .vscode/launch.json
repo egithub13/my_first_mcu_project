@@ -1,0 +1,30 @@
+/*
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=
+*/
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Cortex Debug",
+      "cwd": "${workspaceFolder}",
+      "executable": "${workspaceFolder}/target/thumbv7em-none-eabihf/debug/my_first_mcu_project",
+      "request": "launch",
+      "type": "cortex-debug",
+      "runToEntryPoint": "main",
+      "servertype": "stlink", // Keep this as "stlink"
+      "svdFile": "/opt/ST/STM32CubeCLT_1.18.0/STMicroelectronics_CMSIS_SVD/STM32F401.svd",
+      "device": "STM32F401", // Or the specific part number like "STM32F401RETX"
+      "preLaunchTask": "rust: cargo build[MCU]",
+      "showDevDebugOutput": "raw",
+      "serverpath": "/opt/ST/STM32CubeCLT_1.18.0/STLink-gdb-server/bin/ST-LINK_gdbserver",
+      "toolchainPrefix": "arm-none-eabi",
+      // --- ADD THIS LINE FOR STM32CubeProgrammer CLI ---
+      "stm32cubeprogrammer": "/opt/ST/STM32CubeCLT_1.18.0/STM32CubeProgrammer/bin"
+      // ----------------------------------------------------
+    }
+  ]
+}
