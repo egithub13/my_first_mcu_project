@@ -14,5 +14,6 @@
   "cSpell.ignoreWords": ["eabihf"],
   "rust-analyzer.diagnostics.disabled": ["unresolved-extern-crate"],
   "rust-analyzer.cargo.runBuildScripts": true,
-  "rust-analyzer.checkOnSave.allTargets": false
+  "rust-analyzer.checkOnSave.allTargets": false,
+  "rust-analyzer.checkOnSave": true
 }
